@@ -33,7 +33,9 @@ To run the Forward algorithm, enter:
 The training files include: 
 
 hmm-trans.txt: Transision probabilities
+
 hmm-emit.txt: Emission probabilities
+
 hmm-pripr.txt: Prior probabilities
 
 
