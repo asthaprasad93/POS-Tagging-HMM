@@ -7,14 +7,18 @@ int main(int argc, char* argv[])
 	ifstream hmmEmit_file;
 	ifstream hmmPrior_file;
 
-	if (argc > 4)
+	if (argc > 1)
 	{
 		dev_file.open(argv[1]);
-		hmmTrans_file.open(argv[2]);
-		hmmEmit_file.open(argv[3]);
-		hmmPrior_file.open(argv[4]);
+		// hmmTrans_file.open(argv[2]);
+		// hmmEmit_file.open(argv[3]);
+		// hmmPrior_file.open(argv[4]);
 		
 	}
+
+	hmmTrans_file.open("hmm-trans.txt");
+	hmmEmit_file.open("hmm-emit.txt");
+	hmmPrior_file.open("hmm-prior.txt");
 
 	//Parse dev file
 	vvS dev = ExtractDev(dev_file);
