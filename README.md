@@ -1,5 +1,5 @@
 # POS-Tagging-HMM
-Implements the Forward, Backward and Viterbi algorithms to detect parts of speech.
+Implements the Forward, Backward and Viterbi algorithms to tag parts of speech.
 
 ## Viterbi Algorithm
 Input: Text file where each line is a sentence (tokens separated by spaces)
@@ -14,7 +14,7 @@ To run, enter:
 
 ## Forward and Backward Algorithms
 Input: Text file where each line is a sentence (tokens separated by spaces)
-Output: Marginal probability of each sentence
+Output: Log probability of each sentence
 
 To run the Backward algorithm, enter:
 
